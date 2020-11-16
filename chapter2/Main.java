@@ -52,9 +52,14 @@ public class Main {
         }
     }*/
 
+    /*public int addition(var a, var b) { // DOES NOT COMPILE
+        return a + b;
+    }*/
+
     public void twoTypes() {
-        int a, var b = 3; // DOES NOT COMPILE
-        var n = null; // DOES NOT COMPILE
+        // int a, var b = 3; // DOES NOT COMPILE
+        // var n = null; // DOES NOT COMPILE
+        var o = (String)null;
     }
 
     public static void main(String[] args) {
