@@ -40,8 +40,22 @@ public class Main {
         System.out.println(string.toUpperCase()); // ANIMALS
         System.out.println("Abc123".toLowerCase()); // abc123*/
 
-        System.out.println("abc".equals("ABC")); // false
+        /*System.out.println("abc".equals("ABC")); // false
         System.out.println("ABC".equals("ABC")); // true
-        System.out.println("abc".equalsIgnoreCase("ABC")); // true
+        System.out.println("abc".equalsIgnoreCase("ABC")); // true*/
+
+        /*System.out.println("abc".startsWith("a")); // true
+        System.out.println("abc".startsWith("A")); // false
+        System.out.println("abc".endsWith("c")); // true
+        System.out.println("abc".endsWith("a")); // false*/
+
+        /*System.out.println("abcabc".replace('a', 'A')); // AbcAbc
+        System.out.println("abcabc".replace("a", "A")); // AbcAbc*/
+
+        /*System.out.println("abc".contains("b")); // true
+        System.out.println("abc".contains("B")); // false*/
+
+        System.out.println("abc".strip()); // abc
+        System.out.println("\t   a b c\n".strip()); // a b c
     }
 }
